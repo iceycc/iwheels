@@ -14,10 +14,10 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "515208e719e998e77cb39e6675ee9c248910e6b9"
+  "gitHead": "9dc16f60e9448dd2a8cd57221f78226fa89b6ff7"
 }
