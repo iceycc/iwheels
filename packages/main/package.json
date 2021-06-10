@@ -43,5 +43,6 @@
     "for-react": "^0.0.2",
     "html-webpack-plugin": "^4.2.0",
     "utils": "^0.0.2"
-  }
+  },
+  "gitHead": "2e65fdfb1154ad85ffc91bbb29f8895516f97f6a"
 }
