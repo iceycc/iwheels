@@ -1,6 +1,5 @@
 {
   "name": "@iwheels/main",
-  "version": "0.0.1",
   "devDependencies": {
     "lerna": "^4.0.0"
   },
