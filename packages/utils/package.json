@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "@wheels/utils",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "9dc16f60e9448dd2a8cd57221f78226fa89b6ff7"
+  "gitHead": "01c5f28825f48055c06a10d8eb3e7625474003b9"
 }
