@@ -41,9 +41,9 @@
     "dev2": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
   },
   "dependencies": {
-    "for-react": "^0.0.6",
+    "@wheels/for-react": "^0.0.7",
     "html-webpack-plugin": "^4.2.0",
-    "utils": "^0.0.6"
+    "@wheels/utils": "^0.0.7"
   },
-  "gitHead": "ad387e0a64d39cc11c89ed76bd181c86e3f6f56d"
+  "gitHead": "f675b88faa6348104bc98268ec8c21f720c51751"
 }
