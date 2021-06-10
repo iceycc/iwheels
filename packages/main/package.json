@@ -1,6 +1,6 @@
 {
   "name": "main",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
@@ -40,9 +40,9 @@
     "dev2": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
   },
   "dependencies": {
-    "for-react": "^0.0.4",
+    "for-react": "^0.0.5",
     "html-webpack-plugin": "^4.2.0",
-    "utils": "^0.0.4"
+    "utils": "^0.0.5"
   },
   "gitHead": "515208e719e998e77cb39e6675ee9c248910e6b9"
 }
