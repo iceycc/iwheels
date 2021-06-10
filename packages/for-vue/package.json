@@ -1,6 +1,6 @@
 {
   "name": "for-vue",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "d8d6ecdfe254bd923e20158ffe8026d8b32c402e"
+  "gitHead": "515208e719e998e77cb39e6675ee9c248910e6b9"
 }
