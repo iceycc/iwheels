@@ -1,5 +1,5 @@
 {
-  "name": "@wheels/for-react",
+  "name": "@iwheels/for-react",
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
@@ -33,5 +33,5 @@
     "test": "echo \"Error: run tests from root\" && exit 1",
     "dev": "webpack --config webpack.config.js  --watch --progress --colors"
   },
-  "gitHead": "f675b88faa6348104bc98268ec8c21f720c51751"
+  "gitHead": "d9944bbdf4e41d358f6e2573a086ee018b46761e"
 }

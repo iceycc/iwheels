@@ -1,5 +1,5 @@
 {
-  "name": "@wheels/for-vue",
+  "name": "@iwheels/for-vue",
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f675b88faa6348104bc98268ec8c21f720c51751"
+  "gitHead": "d9944bbdf4e41d358f6e2573a086ee018b46761e"
 }

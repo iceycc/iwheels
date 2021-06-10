@@ -1,5 +1,5 @@
 {
-  "name": "@wheels/main",
+  "name": "@iwheels/main",
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
@@ -41,9 +41,9 @@
     "dev2": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
   },
   "dependencies": {
-    "@wheels/for-react": "^0.0.7",
-    "html-webpack-plugin": "^4.2.0",
-    "@wheels/utils": "^0.0.7"
+    "@iwheels/for-react": "^0.0.7",
+    "@iwheels/utils": "^0.0.7",
+    "html-webpack-plugin": "^4.2.0"
   },
-  "gitHead": "f675b88faa6348104bc98268ec8c21f720c51751"
+  "gitHead": "d9944bbdf4e41d358f6e2573a086ee018b46761e"
 }

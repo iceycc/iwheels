@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import "./app.less"
 // @ts-ignore
-import {ErrorBoundary, InfiniteScroller} from "for-react"
+import {ErrorBoundary, InfiniteScroller} from "@iwheels/for-react"
 
 const MakeError = () => {
     useEffect(() => {
