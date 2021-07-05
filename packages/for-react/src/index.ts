@@ -1,2 +1,2 @@
-export {ErrorBoundary} from './ErrorBoundary'
+export {ErrorBoundary, withErrorBoundary, useErrorHandler, FallbackProps} from './ErrorBoundary'
 export {InfiniteScroller} from './InfiniteScroller'

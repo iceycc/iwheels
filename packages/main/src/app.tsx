@@ -1,26 +1,32 @@
-import React,{useEffect} from 'react';
-import "./app.less"
+import * as React from 'react';
 // @ts-ignore
-import {ErrorBoundary, InfiniteScroller} from "@iwheels/for-react"
-
-const MakeError = () => {
-    useEffect(() => {
-        const number = Math.random();
-        if (number > 0.5) {
-            throw new Error('大于0.5');
-        }
-    }, []);
-
-    return <div>正常</div>
-}
+import Routers, {routes, IRoute} from './router'
+import {
+    HashRouter as Router,
+    NavLink
+} from "react-router-dom";
+import "./App.less"
 
 function App() {
     return (
-        <div className="App">
-            <ErrorBoundary fallback={<div>出错啦</div>}>
-                <MakeError/>
-            </ErrorBoundary>
-            <InfiniteScroller/>
+        <div className="App" style={{width: '100%', height: '100%'}}>
+            <Router>
+                <nav>
+                    <ul className="nav_list">
+                        {
+                            routes.map((lk: IRoute, index: number) => {
+                                return <li key={index}>
+                                    <NavLink activeStyle={{
+                                        fontWeight: "bold",
+                                        color: "red"
+                                    }} to={lk.path}>{lk.title}</NavLink>
+                                </li>
+                            })
+                        }
+                    </ul>
+                </nav>
+                <Routers/>
+            </Router>
         </div>
     );
 }

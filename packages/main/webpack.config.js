@@ -20,7 +20,11 @@ module.exports = {
         contentBase: "src",
         open: true,
         port: 2000,
-        hot: true
+        hot: true,
+        // todo: 怎么配置histroy模式呢
+        historyApiFallback:{
+            index:'src/index.html'
+        },
     },
     // 文件处理规则
     module: {

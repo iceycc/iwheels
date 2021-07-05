@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
+    "@types/react-router-dom": "^5.1.7",
     "babel-core": "6.26.3",
     "babel-loader": "7.1.5",
     "css-loader": "^3.4.2",
@@ -27,6 +28,7 @@
     "less-loader": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "style-loader": "^1.1.3",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
@@ -43,7 +45,8 @@
   "dependencies": {
     "@iwheels/for-react": "^0.0.7",
     "@iwheels/utils": "^0.0.7",
-    "html-webpack-plugin": "^4.2.0"
+    "html-webpack-plugin": "^4.2.0",
+    "react-error-boundary": "^3.1.3"
   },
   "gitHead": "8e746ac4214cb31bbbca7b281c1af392f9248e83"
 }
