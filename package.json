@@ -1,13 +1,20 @@
 {
-  "name": "@iwheels/main",
+  "name": "root",
   "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "lerna": "^4.0.0"
   },
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
+    ".",
     "packages/*"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+  "dependencies": {
+    "typescript": "^4.3.5"
   }
 }

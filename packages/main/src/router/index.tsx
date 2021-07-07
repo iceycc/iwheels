@@ -7,6 +7,7 @@ import {
 } from "react-router-dom"
 import * as React from "react";
 import ErrorPage from '../views/ErrorPage/index'
+import IdbZkeyval from '../views/IdbZkeyval/index'
 // 自动导入module下所有模块
 // @ts-ignore
 // const context = require.context('../views', false, /\.tsx$/)
@@ -33,7 +34,13 @@ export const routes: IRoute[] = [
         path: '/errorPage',
         name: 'ErrorPage',
         component: ErrorPage,
-        title: 'ErrorPage'
+        title: 'react-error-boundary轮子'
+    },
+    {
+        path: '/idbZkeyval',
+        name: 'IdbZkeyval',
+        component: IdbZkeyval,
+        title: 'idb-keyval轮子'
     },
 ]
 
