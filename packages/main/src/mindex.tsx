@@ -17,4 +17,4 @@ const App = (`
 let root = parseJSX(App);
 
 console.log(JSON.stringify(root, null, 2));
-createElement()
+// createElement()
