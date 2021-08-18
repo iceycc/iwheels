@@ -12,7 +12,8 @@
   },
   "workspaces": [
     ".",
-    "packages/*"
+    "packages/*",
+    "examples/*"
   ],
   "dependencies": {
     "typescript": "^4.3.5"

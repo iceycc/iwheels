@@ -6,7 +6,7 @@ import {
     Route,
 } from "react-router-dom"
 import * as React from "react";
-import ErrorPage from '../views/ErrorPage/index'
+import ErrorPage from '../views/day1.ErrorPage/index'
 import IdbZkeyval from '../views/IdbZkeyval/index'
 // 自动导入module下所有模块
 // @ts-ignore
