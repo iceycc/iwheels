@@ -1,11 +1,11 @@
-# `@iwheels/react-error-boundary`
+# `react-error-boundary`
 
 > TODO: description
 
 ## Usage
 
 ```
-const reactErrorBoundary = require('@iwheels/react-error-boundary');
+const reactErrorBoundary = require('react-error-boundary');
 
 // TODO: DEMONSTRATE API
 ```

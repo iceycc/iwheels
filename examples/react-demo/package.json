@@ -1,6 +1,6 @@
 {
   "name": "@iexamples/react-demo",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
@@ -35,9 +35,7 @@
     "dev2": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
   },
   "dependencies": {
-    "@iwheels/for-react": "^0.0.7",
-    "@iwheels/ireact": "^0.0.7",
-    "@iwheels/utils": "^0.0.7",
+    "@iwheels/react-error-boundary": "^0.0.1",
     "antd": "^4.16.6",
     "html-webpack-plugin": "^4.2.0",
     "react": "^16.13.1",
