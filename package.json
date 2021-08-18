@@ -14,5 +14,8 @@
     "packages/react/*",
     "packages/tools/*",
     "examples/*"
-  ]
+  ],
+  "dependencies": {
+    "@iwheels/utils": "^0.0.1"
+  }
 }

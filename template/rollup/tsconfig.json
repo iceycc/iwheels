@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "lib",
+    "module": "ESNext",
+    "rootDir": "src",
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "ESNext"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}

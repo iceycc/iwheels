@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:watch": "webpack --mode development --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js --watch",
+    "build-typings": "tsc -d --emitDeclarationOnly --declarationDir ./lib"
+  }
+}

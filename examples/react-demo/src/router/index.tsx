@@ -6,7 +6,8 @@ import {
     Route,
 } from "react-router-dom"
 import * as React from "react";
-import ErrorPage from '../views/day1.ErrorPage/index'
+import Day1Demo from '../views/day1.ErrorPage/index'
+import Day2Demo from '../views/day2.IdbKeyval/index'
 // 自动导入module下所有模块
 // @ts-ignore
 // const context = require.context('../views', false, /\.tsx$/)
@@ -30,10 +31,16 @@ export interface IRoute {
 
 export const routes: IRoute[] = [
     {
-        path: '/errorPage',
+        path: '/ErrorPage',
         name: 'ErrorPage',
-        component: ErrorPage,
+        component: Day1Demo,
         title: 'react-error-boundary轮子'
+    },
+    {
+        path: '/IdbKeyval',
+        name: 'IdbKeyval',
+        component: Day2Demo,
+        title: 'IdbKeyval轮子'
     }
 ]
 

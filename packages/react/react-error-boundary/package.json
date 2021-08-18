@@ -31,6 +31,7 @@
     "build-typings": "tsc -d --emitDeclarationOnly --target esnext --removeComments false --allowJs false --declarationDir ./lib"
   },
   "dependencies": {
+    "@iwheels/utils": "^0.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

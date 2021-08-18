@@ -1,11 +1,11 @@
 {
-  "name": "@iwheels/react-contenteditable",
+  "name": "@iwheels/utils",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/react-contenteditable.js",
+  "main": "lib/utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,8 +22,5 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@iwheels/utils": "^0.0.1"
   }
 }

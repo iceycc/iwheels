@@ -2,15 +2,20 @@ import {Link, Route, Switch} from 'react-router-dom'
 import React from "react";
 import Error1 from './ErrorPage1'
 import MyExamples from './myExamples'
-import './index.less'
 
-export function ErrorPage() {
+export function Day1Demo() {
+    const styles = {
+        nav: {
+            display: "inline-block",
+            marginRight: "10px"
+        }
+    }
     return <div>
         <div>
-            <nav>
+            <nav style={styles.nav}>
                 <Link className="link" to="/errorPage/Error1">官方轮子</Link>
             </nav>
-            <nav>
+            <nav style={styles.nav}>
                 <Link to="/errorPage/MyExamples">我的轮子例子</Link>
             </nav>
         </div>
@@ -25,4 +30,4 @@ export function ErrorPage() {
     </div>
 }
 
-export default ErrorPage
+export default Day1Demo

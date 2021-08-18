@@ -35,12 +35,13 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "webpack",
-    "dev": "webpack server",
-    "dev2": "webpack --config webpack.config.js  --watch --progress --colors --mode=development"
+    "build": "webpack --mode=production",
+    "dev": "webpack server --mode=development"
   },
   "dependencies": {
+    "@iwheels/idb-keyval": "^0.0.1",
     "@iwheels/react-error-boundary": "^0.0.1",
+    "@iwheels/utils": "^0.0.1",
     "antd": "^4.16.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
