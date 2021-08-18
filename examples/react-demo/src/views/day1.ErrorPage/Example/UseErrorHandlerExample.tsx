@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {ErrorFallback} from '../utils';
-import {ErrorBoundary} from '@iwheels/for-react';
+import {ErrorBoundary} from '@iwheels/react-error-boundary';
 import AsyncError from '../Error/AsyncError';
 
 const UseErrorHandlerExample = ({name=''}) => {

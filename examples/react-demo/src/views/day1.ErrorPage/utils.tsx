@@ -1,5 +1,5 @@
 import React from 'react';
-import {FallbackProps} from '@iwheels/for-react';
+import {FallbackProps} from '@iwheels/react-error-boundary';
 
 /**
  * 出错后现时的组件

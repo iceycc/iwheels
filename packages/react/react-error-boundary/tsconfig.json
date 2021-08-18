@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-    "outDir": "dist",
+    "outDir": "lib",
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
@@ -20,7 +20,7 @@
     "noImplicitThis": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": false,
+    "noUnusedLocals": false
   },
   "exclude": [
     "node_modules",

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "serve": "rollup --config -w",
+    "build:watch": "rollup -w --config rollup.config.build.js",
+    "build": "rollup --config rollup.config.build.js"
+  }
+}

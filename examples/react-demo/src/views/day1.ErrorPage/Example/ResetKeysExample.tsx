@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MakeError from '../Error/MakeError';
 import {ErrorFallback} from '../utils';
-import {ErrorBoundary} from '@iwheels/for-react';
+import {ErrorBoundary} from '@iwheels/react-error-boundary';
 
 const FallbackExample = ({name=''}) => {
     const [retry, setRetry] = useState<number>(0);

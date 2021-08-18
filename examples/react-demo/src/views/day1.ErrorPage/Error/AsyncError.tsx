@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useErrorHandler} from "@iwheels/for-react"
+import {useErrorHandler} from "@iwheels/react-error-boundary"
 
 const AsyncError = ({name = ''}) => {
     const handleError = useErrorHandler();

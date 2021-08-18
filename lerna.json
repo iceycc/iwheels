@@ -1,6 +1,8 @@
 {
   "packages": [
     "packages/*",
+    "packages/react/*",
+    "packages/tools/*",
     "examples/*"
   ],
   "version": "0.0.1",
