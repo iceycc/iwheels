@@ -39,5 +39,6 @@
   "dependencies": {
     "@iwheels/utils": "^0.1.1-alpha.0",
     "rollup-plugin-dts": "^3.0.2"
-  }
+  },
+  "gitHead": "f86679223258583f47cfcd76d9bbcfa09b2f904c"
 }

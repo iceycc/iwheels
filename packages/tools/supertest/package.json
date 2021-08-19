@@ -48,5 +48,6 @@
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2",
     "superagent": "^6.1.0"
-  }
+  },
+  "gitHead": "f86679223258583f47cfcd76d9bbcfa09b2f904c"
 }

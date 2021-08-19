@@ -43,5 +43,6 @@
   "repository": {
     "type": "git",
     "url": "https://gitee.com/iceycc/icey-wheels.git"
-  }
+  },
+  "gitHead": "f86679223258583f47cfcd76d9bbcfa09b2f904c"
 }
