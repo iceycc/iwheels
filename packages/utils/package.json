@@ -5,9 +5,9 @@
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/utils.js",
+  "main": "dist/utils.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
