@@ -1,6 +1,6 @@
 {
   "name": "@iwheels/promise-poller",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.0",
   "description": "> TODO: description",
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
@@ -37,7 +37,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "@iwheels/utils": "^0.0.1",
+    "@iwheels/utils": "^0.1.0-alpha.0",
     "rollup-plugin-dts": "^3.0.2"
   }
 }

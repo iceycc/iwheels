@@ -1,6 +1,6 @@
 {
   "name": "@iwheels/supertest",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.0",
   "description": "> TODO: description",
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.14.5",
     "@babel/preset-env": "^7.15.0",
-    "@iwheels/utils": "^0.0.1",
+    "@iwheels/utils": "^0.1.0-alpha.0",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",

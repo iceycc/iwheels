@@ -1,6 +1,6 @@
 {
   "name": "@iexamples/react-demo",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.0",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
@@ -39,10 +39,10 @@
     "dev": "webpack server --mode=development"
   },
   "dependencies": {
-    "@iwheels/idb-keyval": "^0.0.1",
-    "@iwheels/react-contenteditable": "^0.0.1",
-    "@iwheels/react-error-boundary": "^0.0.1",
-    "@iwheels/utils": "^0.0.1",
+    "@iwheels/idb-keyval": "^0.1.0-alpha.0",
+    "@iwheels/react-contenteditable": "^0.1.0-alpha.0",
+    "@iwheels/react-error-boundary": "^0.1.0-alpha.0",
+    "@iwheels/utils": "^0.1.0-alpha.0",
     "antd": "^4.16.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

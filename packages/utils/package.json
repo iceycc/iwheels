@@ -1,6 +1,6 @@
 {
   "name": "@iwheels/utils",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.0",
   "description": "> TODO: description",
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
@@ -22,9 +22,5 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
   }
 }
