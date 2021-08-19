@@ -1,6 +1,6 @@
 {
   "name": "@iwheels/react-infinite-scroller",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.1-alpha.0",
   "description": "> TODO: description",
   "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
@@ -15,7 +15,7 @@
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
-    "@iwheels/utils": "^0.1.0-alpha.0",
+    "@iwheels/utils": "^0.1.1-alpha.0",
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
     "babel-loader": "8.2.2",
