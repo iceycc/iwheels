@@ -5,7 +5,7 @@
   "author": "iceyang <w@icey.cc>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/promise-poller.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +21,10 @@
     "url": "https://gitee.com/iceycc/icey-wheels.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "serve": "rollup --config -w",
+    "build:watch": "rollup -w --config rollup.config.build.js",
+    "build": "rollup --config rollup.config.build.js",
+    "build-typings": "tsc --project tsconfig.json -d --emitDeclarationOnly --declarationDir ./lib"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.0",

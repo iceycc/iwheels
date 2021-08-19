@@ -10,6 +10,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "private": true,
   "files": [
     "lib"
   ],
@@ -34,12 +35,12 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "webpack --mode=production",
     "dev": "webpack server --mode=development"
   },
   "dependencies": {
     "@iwheels/idb-keyval": "^0.0.1",
+    "@iwheels/react-contenteditable": "^0.0.1",
     "@iwheels/react-error-boundary": "^0.0.1",
     "@iwheels/utils": "^0.0.1",
     "antd": "^4.16.6",

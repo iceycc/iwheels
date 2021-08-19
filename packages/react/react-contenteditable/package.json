@@ -2,28 +2,47 @@
   "name": "@iwheels/react-contenteditable",
   "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "iceyang <w@icey.cc>",
+  "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
-  "license": "ISC",
-  "main": "lib/react-contenteditable.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@iwheels/utils": "^0.0.1",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "8.2.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "dev:browser": "webpack serve --config webpack.config.browser.js",
+    "build:watch": "webpack --mode development --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "build-typings": "tsc -d --emitDeclarationOnly --target esnext --removeComments false --allowJs false --declarationDir ./dist"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://gitee.com/iceycc/icey-wheels.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@iwheels/utils": "^0.0.1"
   }
 }

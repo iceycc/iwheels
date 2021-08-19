@@ -2,10 +2,37 @@
   "name": "@iwheels/redux",
   "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "iceyang <w@icey.cc>",
+  "author": "wangbingyang <wangbingyang@doushen.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/redux.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@iwheels/utils": "^0.0.1",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "8.2.2",
+    "jest": "^27.0.6",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "build:watch": "webpack --mode development --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "build-typings": "tsc -d --emitDeclarationOnly --target esnext --removeComments false --allowJs false --declarationDir ./dist"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,17 +40,8 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://gitee.com/iceycc/icey-wheels.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@iwheels/utils": "^0.0.1"
   }
 }

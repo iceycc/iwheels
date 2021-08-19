@@ -4,12 +4,12 @@ const path = require('path');
 module.exports = {
     mode: 'production',
     // 项目入口文件
-    entry: path.resolve(__dirname, 'src/index.ts'),
+    entry: path.resolve(__dirname, 'lib/index.ts'),
     // 项目输出文件
     output: {
         filename: 'index.js',
         libraryTarget: "umd",   // 不用省略
-        path: path.resolve(__dirname, 'lib'),
+        path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.json'],
@@ -22,7 +22,7 @@ module.exports = {
             },
             {
                 test: /\.(ts|tsx)$/,
-                loader: "ts-loader",
+                loader: "ts-loader"
             }
         ]
 
