@@ -21,6 +21,7 @@
 
 ## 
 ## 项目目录
+```
 .
 ├── LICENSE.md
 ├── README.md
@@ -47,6 +48,7 @@
 │   ├── rollup # 适用于纯js轮子
 │   └── webpack # 需要UI的
 └── yarn.lock
+```
 ## iwheels
 - `npm i @iwheels/react-contenteditable`
 - `npm i @iwheels/react-error-boundary`
